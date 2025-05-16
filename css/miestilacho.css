@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none ;
+	font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+	
+
+}
+
+/*Estos son los estilos de bienvenida*/
+
+
+#wrapperB{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3,27,27,1);
+    overflow: hidden;
+	padding-top: 35vh;
+}
+
+#imagenBienvenida{
+	background-image:url("../images/motivate-someone.png");
+}
+/* CSS Document */
+.bienvenidaImage{
+	    background-color: rgba(0,0,0,0);
+        width: 90vw;
+        height: 50vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+		padding-top: 10vh;
+       
+	
+}
+
+#mainContent{
+	margin-left: 10vw;
+	padding-top: 40vh;
+}
+
+h2.tituloBienvenida{
+	font-weight: 700;
+	color: rgba(251,243,243,1.00);
+	font-size: 32pt;
+}
+
+p.bienvenidaTexto{
+	font-weight: 200;
+	color: rgba(251,243,243,1.00);
+	font-size: 16pt;
+}
+
+
+
+/*Estos son los estilos de home*/
+#wrapperHome{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(250, 251, 245, 1);
+    overflow: hidden;
+	padding-top: 10vh;
+}
+
+#wrapperHomeGeneral{
+	padding-left: 10vw;;
+	padding-right: 10vw;
+}
+
+
+
+#marcoPerfil{
+	float: right;
+	position: absolute;
+    top: 12vh;
+    left: 75vw;
+	
+	
+	
+}
+
+
+#iconoNotificaciones{
+	background-image: url("../images/fi-rr-bell.png")
+}
+
+.notificaciones{
+	    background-color: rgba(219, 229, 77, 0.25);
+        width: 10vw;
+        height: 10vw;
+        background-repeat: no-repeat;
+        background-size: 70%;
+	    float: left;
+	 	border-radius: 50vh;
+		display: block;
+		background-position: content;
+	
+}
+
+#fotoPerfil{
+	background-image:url("../images/image 13.jpg")
+}
+
+.perfil{
+	    background-color: rgba(0,0,0,0);
+        width: 7vw;
+        height: 7vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+	    border-radius: 50vw;
+	    float: right;
+	
+	
+}
+
+.nombreUsuario{
+	font-weight: 700;
+	color: rgba(3, 27, 27, 1);
+	font-size: 24pt;
+	line-height: 32px;
+}
+
+
+#mainContent{
+	padding-top: 20vh;
+}
+
+
+.resumenHome{
+	background-color: rgba(0, 223, 130, 1);
+	border-radius: 20px;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+	padding-left: 3vh;
+}
+
+.leccionResumen{
+	float: left;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 50px;
+}
+
+h3.leccionResumen{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 1);
+	font-size: 12pt;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	padding-bottom: 0.3vh;
+	padding-top: 0.3vh;
+}
+
+h5.progresoResumen{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 1);
+	font-size: 12pt;
+	position: absolute;
+	left: 55vw;
+	
+}
+
+.tendenciasResumen{
+	padding-left: 0;
+	padding-top: 0vh;
+	padding-right: 5vw;
+}
+
+h2.tendenciasResumen{
+	font-weight: 600;
+	color: rgba(3, 27, 27, 1);
+	font-size: 17pt;
+}
+
+h3.textoTendenciasResumen{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.77);
+	font-size: 14pt;
+}
+
+.numeroLeccion{
+	padding-left: 0;
+	padding-top:5vh;
+	padding-right: 5vw;
+}
+
+h4.numeroLeccion{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 14pt;
+}
+
+.newsContent{
+	background-color: rgba(217, 217, 217, 0.49);
+	border-radius: 20px;
+	margin-top: 2vh;
+	padding-left: 5vw;
+	padding-bottom: 2vh;
+	padding-top: 2vh;
+}
+
+.newsList{
+	padding-left: 19vw;
+}
+
+h5.enTendencia{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 11pt;
+}
+
+h3.tituloNoticia{
+	font-weight: 500;
+	color: rgba(3, 27, 27, 1);
+	font-size: 14pt;
+}
+
+h5.tiempoNoticia{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 11pt;
+}
+
+
+/*Estos son los estilos de entrada presupuesto*/
+
+
+#wrapperEntradaPresu{
+	height: 100vh;
+    width: 100vw;
+    background-color: rgba(4, 97, 76, 1);
+    overflow: hidden;
+	padding-top: 5vh;
+}
+
+#mainEntradaPresu{
+	padding-left: 10vw;;
+	padding-right: 10vw;
+}
+
+#iconoAtras{
+	background-image: url("../images/fi-rr-arrow-left.png")
+}
+
+.headerEntradaPresu{
+	background-color: rgba(0,0,0,0);
+        width: 10vw;
+        height: 10vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+		padding-top: 10vh;
+}
+
+#imagenEntradaPresu{
+	background-image: url("../images/becoming-rich.png")
+}
+
+.entradaPresu{
+	background-color: rgba(0,0,0,0);
+        width: 90vw;
+        height: 50vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+		padding-top: 10vh;
+}
+
+.entradaPresuContent{
+	padding-left: 0;
+	padding-top:5vh;
+	padding-right: 5vw;
+}
+
+h3.entradaContent{
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+	font-size: 17pt;
+}
+
+#footerEntradaPresu{
+	background-image: url("../images/fi-rr-arrow-right.png")
+}
+
+.iconoEntradaPresu{
+	    background-color: rgba(250, 251, 245, 1);
+        width: 10vw;
+        height: 10vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+		padding-top: 0vh;
+	    padding-left: 2vw;
+		padding-right: 2vw;
+	    border-radius: 20px;
+		margin-left: 65vw;
+		margin-top: 10vh;
+}
+
+
+
+

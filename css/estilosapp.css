@@ -1,0 +1,3240 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none ;
+	font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+	
+
+}
+
+#wrapperGeneral {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
+	background-color: rgba(246, 248, 237, 1);
+}
+
+/*Estos son los estilos de Escena 1*/
+
+#wrapperEscena1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3,27,27,1);
+    overflow: hidden;
+	top: 0;
+	left: 0vw;
+	position: absolute;
+	
+}
+
+#imagenEntradas{
+	width: 90vw;
+    height: 50vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenEntradas19{
+	width: 90vw;
+    height: 50vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenEntradas14{
+	width: 90vw;
+    height: 50vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenEntradas7{
+	width: 90vw;
+    height: 50vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#imagenEntradas10{
+	width: 90vw;
+    height: 50vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagenEscena1{
+	background-image:url("../images/escena1.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+
+#mainEscena1 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw;
+ padding-top: 15vh;
+}
+
+.titulosEntradas{
+	line-height: 4.74vh;
+	font-weight: 600;
+	font-size: 5vh;
+	color: rgba(3, 27, 27, 1);
+}
+
+#tituloEscena1{
+	padding-top: 6vh;
+	color: rgba(251,243,243,1.00);
+}
+
+p.textosEntradas{
+	padding-top: 3vh;
+	font-weight: 200;
+	font-size: 2.37vh;
+}
+
+#textoEscena1{
+	color: rgba(251,243,243,1.00);
+}
+
+#textoEscena14{
+	color: rgba(251,243,243,1.00);
+}
+
+#textoEscena10{
+	color: rgba(251,243,243,1.00);
+}
+
+#textoEscena7{
+	color: rgba(251,243,243,1.00);
+}
+
+.botonEscena1 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top: 8.29vh;
+  
+}
+
+
+
+#imagenFlecha {
+	background-image:url("../images/flechaboton.png");
+	align-items: center;
+}
+
+#imagenFelcha a{
+	width: 7vw;
+	height: auto;
+}
+.flechaCirculo{
+	width: 14.10vw;
+    height: 6.52vh;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-color: rgba(4, 34, 34, 1);
+	display: block;
+	position: absolute;
+	margin-left: 36.5vw;
+	background-position:center;
+	background-size: 70%;
+	justify-content: center;	
+}
+
+
+/*Estos son los estilos de Escena 2*/
+
+#wrapperEscena2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+.headerEscena2{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vh;
+	margin-top: 4.39vh;
+}
+
+#iconoAyuda a{
+	background-image:url("../images/iconoAyuda.png");	
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+}
+
+#iconoAyuda{
+	float: right;
+}
+
+#imagenEntradas2{
+	width: 70vw;
+    height: 40vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+	margin-left: -12vw;
+	overflow: hidden;
+}
+
+.imagenEscena2{
+	background-image:url("../images/imagenEscena2.png");
+	background-color: rgba(0,0,0,0);
+	
+}
+
+#mainEscena2 {
+ margin-left: 0vw;
+ margin-right: 0vw; 	
+ 
+}
+#mainEscena22 {
+ margin-top: 5vh;	
+ 
+}
+
+#tituloEscena2{
+	padding-top: 6vh;
+	color: rgba(3, 27, 27, 1);
+	font-size: 4.74vh;
+}
+
+#textoEscena2{
+	color: rgba(3, 27, 27, 1);
+	font-weight: 400;
+}
+
+.botonEscena2 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(4, 97, 76, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 25.5vw;
+  margin-top: 8.29vh;
+  color: rgba(246, 248, 237, 1);
+  
+}
+
+.botonEscena2x button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(44, 194, 149, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 23.5vw;
+  margin-top:3vh;
+  color: rgba(246, 248, 237, 1);
+  
+}
+
+
+/*Estos son los estilos de Escena 3*/
+
+#wrapperEscena3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+.headerEscena3{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vh;
+	margin-top: 4.39vh;
+		
+}
+
+
+#iconoAtras a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda3 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAtras {
+	float: left;
+}
+#iconoAtras20 a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+#iconoAtras20 {
+	float: left;
+}
+
+
+
+#iconoAyuda3 {
+	float: right;
+}
+
+#iconoAyuda20 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda20 {
+	float: right;
+}
+
+#iconoAtras21 a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+#iconoAtras21 {
+	float: left;
+}
+
+
+#iconoAyuda21 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda21 {
+	float: right;
+}
+
+
+#iconoAtras22 a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+#iconoAtras22 {
+	float: left;
+}
+
+
+#iconoAyuda22 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda22 {
+	float: right;
+}
+
+
+#iconoAtras23 a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+#iconoAtras23 {
+	float: left;
+}
+
+
+#iconoAyuda23 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda23 {
+	float: right;
+}
+
+#iconoAtras24 a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+#iconoAtras24 {
+	float: left;
+}
+
+
+#iconoAyuda24 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda24 {
+	float: right;
+}
+
+
+#iconoAtras25 a{
+	background-image:url("../images/atras-negro.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+#iconoAtras25 {
+	float: left;
+}
+
+
+#iconoAyuda25 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/iconoAyuda.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#iconoAyuda25 {
+	float: right;
+}
+
+#mainEscena3 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena33 {
+ margin-top: 2vh;	
+ 
+}
+
+#textoEscena3{
+	padding-top: 2vh;
+}
+
+#tituloEscena3{
+	font-size: 4.74vh;
+}
+
+
+
+.botonEscena3 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 22vw;
+  margin-top: 6vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
+
+form input[type="texto"]{
+	margin-top: 3vh;
+}
+
+form input[type="texto"],
+form input[type="email"],
+form input[type="contraseña"] {
+  width: 78vw;
+  top: 30vw;
+  height: 7.53vh;
+  padding-left: 7vw;
+  margin-bottom: 3vh;
+  border: 1px solid #c8e0c5;
+  border-radius: 12.82vw;
+  font-size: 2.05vh;
+  box-sizing: border-box;
+}
+
+
+.checkbox-contenedor {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.58vh;
+  
+}
+
+
+.checkbox-contenedor input {
+  width: 8vw;
+  height: 4vh;
+  top: 4vh;
+  accent-color: rgba(222, 233, 97, 1);
+  margin-right: 5vw;
+}
+
+input[type="checkbox"] {
+margin-top: 0vh;
+width: 13vw;
+margin-bottom: 2vh;
+
+	
+}
+
+
+/*Estos son los estilos de Escena 4*/
+
+#wrapperEscena4{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 223, 130, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena4 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 
+ 
+}
+
+.headerEscena4{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vw;
+	margin-top: 4.59vh;	
+}
+
+
+.iconoSalir {
+	background-image:url("../images/salir-blanco.png");
+ 	width: 7vw;
+	height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+}
+
+.iconoSalir27 {
+	background-image:url("../images/salir-blanco.png");
+ 	width: 7vw;
+	height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+}
+
+#mainEscena44{
+	margin-top: 20vh;
+}
+
+.imagenEntradasVerde{
+	width: 50vw;
+    height: 30vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenEscena4{
+	background-image:url("../images/escena-4.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+#textoEscena4{
+	padding-top: 2.5vh;;
+}
+
+#continuarInicio5{
+	background-image:url("../images/flechaboton.png");
+	width: 16.67vw;
+    height: 7.70vh;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-color: rgba(4, 34, 34, 1);
+	display: block;
+	position: absolute;
+	margin-left: 62vw;
+	background-position:center;
+	background-size: 50%;
+	justify-content: center;
+}
+
+#footerEscena4{
+	margin-top: 10vh;
+	align-content: flex-end;
+}
+
+
+/*Estos son los estilos de Escena 5*/
+
+#wrapperEscena5{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 223, 130, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena5 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+.headerEscena5{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vw;
+	margin-top: 4.59vh;	
+}
+
+.iconoSalir{
+	background-image:url("../images/salir-blanco.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+.headerEscena5{
+	align-items: flex-end;
+}
+
+#mainEscena55{
+	margin-top: 20vh;
+}
+
+.imagenEntradasVerde{
+	width: 50vw;
+    height: 30vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenEscena5{
+	background-image:url("../images/escena5.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+#textoEscena5{
+	padding-top: 2.5vh;;
+}
+
+#textoEscena6{
+	padding-top: 2.5vh;;
+}
+
+.continuarInicio{
+	background-image:url("../images/flechaboton.png");
+	width: 16.67vw;
+    height: 7.70vh;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-color: rgba(4, 34, 34, 1);
+	display: block;
+	position: absolute;
+	margin-left: 62vw;
+	background-position:center;
+	background-size: 50%;
+	justify-content: center;
+}
+
+#footerEscena5{
+	margin-top: 10vh;
+	align-content: flex-end;
+}
+
+/*Estos son los estilos de Escena 6*/
+
+#wrapperEscena6{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 223, 130, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena6 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+.headerEscena6{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vw;
+	margin-top: 4.59vh;	
+	
+}
+
+.iconoSalir{
+	background-image:url("../images/salir-blanco.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+.headerEscena6{
+	align-items: flex-end;
+}
+
+#mainEscena66{
+	margin-top: 20vh;
+}
+
+.imagenEntradasVerde{
+	width: 50vw;
+    height: 30vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenEscena6{
+	background-image:url("../images/escena6.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+#textoEscena6{
+	padding-top: 2.5vh;;
+}
+
+.continuarInicio{
+	background-image:url("../images/flechaboton.png");
+	width: 16.67vw;
+    height: 7.70vh;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-color: rgba(4, 34, 34, 1);
+	display: block;
+	position: absolute;
+	margin-left: 62vw;
+	background-position:center;
+	background-size: 50%;
+	justify-content: center;
+}
+
+#footerEscena6{
+	margin-top: 10vh;
+	align-content: flex-end;
+}
+
+
+
+
+/*Estos son los estilos de Escena 7*/
+
+#wrapperEscena7{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3,27,27,1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena7 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw;
+ margin-top: 4.39vh;
+
+	
+ 
+}
+
+#mainEscena77 {
+margin-top: 0vh;
+	
+}
+
+#headerEscena7 {
+	clear: both;
+	padding-bottom: 13vh;
+}
+
+#headerEscena19 {
+	clear: both;
+	padding-bottom: 13vh;
+}
+
+#headerEscena14 {
+	clear: both;
+	padding-bottom: 13vh;
+}
+
+
+.imagenEscena7{
+	background-image:url("../images/escena7.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+	align-content: center;
+}
+
+#tituloEscena7{
+	padding-top: 6vh;
+	color: rgba(251,243,243,1.00);
+	font-size: 22pt;
+}
+
+#tituloEscena10{
+	padding-top: 6vh;
+	color: rgba(251,243,243,1.00);
+	font-size: 22pt;
+}
+
+.botonEscena7 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 80vw;
+  align-items: center;
+  padding-left: 28vw;
+  margin-top: 8.29vh;
+  
+}
+
+.headerEscena7{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vh;
+	margin-top: 4.39vh;
+}
+
+
+#iconoAtras7 a{
+	background-image:url("../images/fi-rr-arrow-left.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+}
+
+#iconoAtras7 {
+	float: left;
+}
+
+#iconoAtras19 a{
+	background-image:url("../images/fi-rr-arrow-left.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+}
+
+#iconoAtras19 {
+	float: left;
+}
+
+#iconoAtras10 a{
+	background-image:url("../images/fi-rr-arrow-left.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+}
+
+#iconoAtras10 {
+	float: left;
+}
+
+
+#iconoAtras14 a{
+	background-image:url("../images/fi-rr-arrow-left.png");
+	width: 7vw;
+    height: 7vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+}
+
+#iconoAtras14 {
+	float: left;
+}
+h4.saltar{
+	color: rgba(255, 255, 255, 1);
+	float: right;
+	display: flex;
+}
+
+
+/*Estos son los estilos de Escena 8*/
+
+#wrapperEscena8{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+}
+
+#mainEscena8 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ margin-top: 5vh;
+ 
+}
+
+
+#mainEscena88 {
+margin-top: 0vh;	
+ 
+}
+
+.headerEscena8{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vh;
+	margin-top: 4.39vh;	
+	
+}
+
+#headerEscena8 {
+	clear: both;
+	padding-bottom: 10vh;
+}
+
+#iconoAtras8 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/atras-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+	
+}
+
+#iconoSalir8 a{
+	width: 6vw;
+    height: 6vh;
+	background-image:url("../images/salir-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+		
+	
+}
+
+
+
+#iconoSalir9 a{
+	width: 6vw;
+    height: 6vh;
+	background-image:url("../images/salir-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+		
+	
+}
+
+#iconoSalir9{
+	float: right;
+}
+
+#iconoSalir11 a{
+	width: 6vw;
+    height: 6vh;
+	background-image:url("../images/salir-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+		
+	
+}
+
+#iconoSalir11{
+	float: right;
+}
+
+#iconoSalir12 a{
+	width: 6vw;
+    height: 6vh;
+	background-image:url("../images/salir-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+		
+	
+}
+
+#iconoSalir12{
+	float: right;
+}
+
+#iconoSalir13 a{
+	width: 6vw;
+    height: 6vh;
+	background-image:url("../images/salir-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+		
+	
+}
+
+#iconoSalir13{
+	float: right;
+}
+#iconoAtras8{
+	float: left;
+}
+
+#iconoAtras8 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/atras-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+	
+}
+
+#iconoAtras12{
+	float: left;
+}
+
+#iconoAtras12 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/atras-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+	
+}
+
+#iconoAtras11{
+	float: left;
+}
+
+#iconoAtras11 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/atras-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+	
+}
+
+#iconoAtras9{
+	float: left;
+}
+
+#iconoAtras9 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/atras-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+	
+}
+
+#iconoAtras13{
+	float: left;
+}
+
+#iconoAtras13 a{
+	width: 7vw;
+    height: 7vh;
+	background-image:url("../images/atras-negro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	
+	
+	
+}
+
+
+
+#iconoSalir8{
+	float: right;
+}
+
+
+ .contenedor-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh;
+}
+
+.boton-tema {
+    border: 1px solid #d9d9d9;
+    border-radius: 12.82vw;
+    padding: 1.18vh 3.85vw;
+    font-size: 1.89vh;
+    color: #031b1b;
+    background-color: transparent;
+	margin-top: 2vh;
+	
+}
+
+.botonEscena8 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top: 7.5vh;
+  
+}
+
+/*Estos son los estilos de Escena 9*/
+
+#wrapperEscena9{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+	
+}
+
+
+#mainEscena9 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ margin-top: 5vh;
+
+ 
+}
+
+#mainEscena13 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ margin-top: 5vh;
+
+ 
+}
+
+#mainEscena12 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ margin-top: 5vh;
+
+ 
+}
+
+#mainEscena11 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ margin-top: 5vh;
+
+ 
+}
+
+.headerEscena9{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vh;
+	margin-top: 4.39vh;	
+}
+
+#headerEscena9 {
+	clear: both;
+	padding-bottom: 10vh;
+}
+
+#headerEscena13 {
+	clear: both;
+	padding-bottom: 10vh;
+}
+
+#headerEscena12 {
+	clear: both;
+	padding-bottom: 10vh;
+}
+
+#headerEscena11 {
+	clear: both;
+	padding-bottom: 10vh;
+}
+
+.opcion9 {
+    border: none;
+    border-radius: 15px;
+    font-size: 1.89vh;
+    color: rgba(3, 27, 27, 1);
+    background-color: rgba(149, 148, 148, 0.13);
+    text-align: left;
+    display: flex;
+    align-items: center;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	float: left;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	padding-right: 5vw;
+}
+
+
+.botonEscena9 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 80vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top: 50vh;
+  
+}
+
+
+/*Estos son los estilos de Escena 10*/
+
+
+#wrapperEscena10{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3,27,27,1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena10 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena1010 {
+ margin-top: 12vh;	
+ 
+}
+
+.imagenEscena10{
+	background-image:url("../images/escena10.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+	
+}
+
+#tituloEscena10{
+	padding-top: 6vh;
+	color: rgba(251,243,243,1.00);
+	font-size: 22pt;
+}
+
+.botonEscena10 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 80vw;
+  align-items: center;
+  padding-left: 28vw;
+  margin-top: 8.29vh;
+  
+}
+
+.headerEscena10{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vh;
+	margin-top: 4.59vh;	
+	
+}
+
+#headerEscena10 {
+	clear: both;
+	padding-top: 4.59vh;
+}
+
+
+
+/*Estos son los estilos de Escena 11*/
+
+
+#wrapperEscena11{
+   height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+.botonEscena11 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top: 33vh;
+  
+}
+
+#tituloEscena11{
+	font-size: 4.86vh;
+}
+
+#tituloEscena13{
+	font-size: 4.86vh;
+}
+
+#tituloEscena12{
+	font-size: 4.86vh;
+}
+
+.opcion11 {
+    border: none;
+    border-radius: 3.85vw;
+    padding: 1.78vh;
+    font-size: 1.89vh;
+	width: 78vw;
+    color: rgba(3, 27, 27, 1);
+    background-color: rgba(149, 148, 148, 0.13);
+    text-align: left;
+    display: flex;
+    align-items: center;
+	margin-top: 2vh;
+	padding-left: 15vw;
+}
+
+/*Estos son los estilos de Escena 12*/
+
+#wrapperEscena12{
+   height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+.botonEscena12 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top: 33vh;
+  
+}
+
+/*Estos son los estilos de Escena 13*/
+#wrapperEscena13{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+	
+}
+
+.botonEscena13 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: #00DF82;
+  font-weight: 600;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top: 33vh;
+  
+}
+
+/*Estos son los estilos de Escena 14*/
+#wrapperEscena14{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(4, 97, 76, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena14 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw;
+ margin-top: 4.39vh;
+
+	
+ 
+}
+
+#mainEscena141 {
+margin-top: 11vh;
+	
+}
+
+
+
+
+.imagenEscena141{
+	background-image:url("../images/escena14.1.png");
+	background-color: rgba(0,0,0,0);
+	align-content: center;
+	display: block;
+}
+
+
+
+#tituloEscena14{
+	padding-top: 2vh;
+	color: rgba(251,243,243,1.00);
+	font-size: 3.47vh;
+	line-height: 4vh;;
+}
+
+
+#botonEscena14 {
+	background-image:url("../images/fi-rr-arrow-right.png");
+	align-items: center;
+}
+
+#botonEscena14 a{
+	width: 7vw;
+	height: auto;
+}
+
+#botonEscena19 {
+	background-image:url("../images/fi-rr-arrow-right.png");
+	align-items: center;
+}
+
+#botonEscena19 a{
+	width: 7vw;
+	height: auto;
+}
+
+.botonEscena14{
+	width: 24vw;
+    height: 5vh;
+	background-repeat: no-repeat;
+	border-radius: 12.82vw;
+	background-color: rgba(250, 251, 245, 1);
+	display: block;
+	position: absolute;
+	margin-left: 52vw;
+	background-position:center;
+	background-size: 35%;
+	justify-content: center;	
+	margin-top: 8vh;
+	padding: 0.1vh;
+}
+
+
+
+
+/*Estos son los estilos de Escena 14.2*/
+
+#mainEscena142 {
+margin-top: 10vh;
+	
+}
+
+
+
+
+.imagenEscena142{
+	background-image:url("../images/escena14.2.png");
+	background-color: rgba(0,0,0,0);
+	align-content: center;
+	display: block;
+}
+
+/*Estos son los estilos de Escena 14.3*/
+
+#mainEscena143 {
+margin-top: 10vh;
+	
+}
+
+
+
+
+.imagenEscena143{
+	background-image:url("../images/escena143.png");
+	background-color: rgba(0,0,0,0);
+	align-content: center;
+	display: block;
+}
+
+
+
+/*Estos son los estilos de Escena 15*/
+
+#wrapperEscena15{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 223, 130, 1);
+    overflow: hidden;
+	top: 0;
+	left:0vw;
+	position: absolute;
+}
+
+
+#mainEscena15{
+	margin-left: 11.54vw;
+ 	margin-right: 11.54vw;
+	margin-top: 54vh;
+}
+
+#tituloEscena15{
+	color: rgba(3, 27, 27, 1);
+	line-height: 4vh;
+	font-size: 3.63vh;
+	
+}
+
+#textoEscena15{
+	color: rgba(3, 27, 27, 1);
+	font-weight: 300;
+	padding-top: 2vh;
+}
+
+.loading-spinner {
+  width: 50px; 
+  height: 50px;
+  position: relative; 
+  margin-bottom: 5vh;
+}
+
+.spinner-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; 
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-top-color: rgba(3, 27, 27, 1); 
+  animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/*Estos son los estilos de Escena 16*/
+
+#wrapperEscena16{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3,27,27,1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+}
+
+#imagenBienvenida{
+	background-image:url("../images/motivate-someone.png");
+}
+
+.bienvenidaImage{
+	    background-color: rgba(0,0,0,0);
+        width: 90vw;
+        height: 50vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+		padding-top: 10vh;
+       
+	
+}
+
+#mainEscena16{
+	margin-left: 11.54vw;
+ 	margin-right: 11.54vw;
+	margin-top: 42vh;
+}
+
+h2.tituloBienvenida{
+	font-weight: 700;
+	color: rgba(251,243,243,1.00);
+	font-size: 5.05vh;
+}
+
+p.bienvenidaTexto{
+	font-weight: 200;
+	color: rgba(251,243,243,1.00);
+	font-size: 2.53vh;
+}
+
+
+
+/*Estos son los estilos de Escena 17-Home*/
+
+#wrapperHome{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(250, 251, 245, 1);
+    overflow: hidden;
+	padding-top: 6vh;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+}
+
+#wrapperHomeGeneral{
+	margin-left: 11.54vw;
+ 	margin-right: 11.54vw;
+	overflow: scroll;
+}
+
+
+
+#marcoPerfil{
+	float: right;
+	position: absolute;
+    top: 8vh;
+    left: 65vw;
+	
+	
+	
+}
+
+
+#iconoNotificaciones{
+	background-image: url("../images/fi-rr-bell.png");
+	
+}
+
+.notificaciones{
+	    background-color: rgba(219, 229, 77, 0.25);
+        width: 10vw;
+        height: 10vw;
+        background-repeat: no-repeat;
+        background-size: 50%;
+	    float: left;
+	 	border-radius: 50vh;
+		display: block;
+		background-position: center;
+		margin-right: 3vw;	
+}
+
+#fotoPerfil{
+	background-image:url("../images/image 13.jpg")
+}
+
+.perfil{
+	    background-color: rgba(0,0,0,0);
+        width: 10vw;
+        height: 10vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+	    border-radius: 50vw;
+	    float: right;
+	
+	
+}
+
+
+.nombreUsuario{
+	font-weight: 400;
+	color: rgba(3, 27, 27, 1);
+	font-size: 2.84vh;
+	line-height: 3.32vh;
+}
+
+
+#mainContent{
+	padding-top: 20vh;
+}
+
+
+.resumenHome{
+	background-color: rgba(0, 223, 130, 1);
+	border-radius: 20px;
+	padding-bottom: 2vh;
+	padding-top: 2vh;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	clear: both;
+	margin-bottom: 1.5vh;
+	box-shadow: 0px 0.5vh 1vh  rgba(0, 0, 0, 0.1);
+}
+
+.leccionResumen{
+	float: left;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 50px;
+}
+
+h3.leccionResumen{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 1);
+	font-size: 12pt;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	padding-bottom: 0.3vh;
+	padding-top: 0.3vh;
+}
+
+h5.progresoResumen{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 4vw;;
+	position: absolute;
+	left: 55vw;
+	
+}
+
+.puntos-lista {
+  list-style: none; 
+  padding: 0; 
+  margin-top: 0vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+	margin-bottom: 1vh;	
+}
+
+.puntos-lista .punto {
+  width: 1vh;
+  height: 1vh;
+  background-color: #ccc; /* Color de los puntos inactivos */
+  border-radius: 50%; /* Hacerlos circulares */
+}
+
+.puntos-lista .punto.activo {
+  background-color: #888; /* Color del punto activo */
+  width: 1vh;
+	height: 1vh;
+}
+
+
+.verMasDescubrir{
+	float: right;
+	padding-top: 3vh;
+	color: rgba(4, 97, 76, 1);
+	font-weight: 300;
+	padding-right: 2vw;
+	
+}
+.tendenciasResumen{
+	padding-left: 0;
+	padding-top: 0vh;
+	padding-right: 5vw;
+}
+
+h2.tendenciasResumen{
+	font-weight: 600;
+	color: rgba(3, 27, 27, 1);
+	font-size: 2.45vh;
+}
+
+h3.textoTendenciasResumen{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.77);
+	font-size: 2.21vh;
+}
+
+.numeroLeccion{
+	padding-left: 0;
+	padding-top:5vh;
+	padding-right: 5vw;
+}
+
+h4.numeroLeccion{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 14pt;
+}
+
+.newsContent{
+	background-color: rgba(217, 217, 217, 0.49);
+	border-radius: 5.13vw;
+	margin-top: 2vh;
+	padding-left: 5vw;
+	padding-bottom: 2vh;
+	padding-top: 2vh;
+}
+
+.newsList{
+	padding-left: 19vw;
+}
+
+h5.enTendencia{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 11pt;
+}
+
+h3.tituloNoticia{
+	font-weight: 500;
+	color: rgba(3, 27, 27, 1);
+	font-size: 2.21vh;
+}
+
+h5.tiempoNoticia{
+	font-weight: 300;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 1.74vh;
+}
+
+/*Estos son los estilos de navbar*/
+
+
+
+ul#navbar{
+    height: 5vh;
+    width: 85vw;
+    background-color: rgba(171, 171, 171, 1);
+    padding-top: 1.5vh;
+	padding-bottom: 2.8vh;
+    position: absolute;
+    z-index: 9999 !important;
+    top: 87vh;
+    left: 8vw;
+	border-radius: 50vw;
+	
+}
+
+    ul#navbar li{
+        float: left;
+    }
+
+    ul#navbar li a{
+        height: 6.5vh;
+        width: 6.5vh;
+        background-position: center center;
+        background-size: 50%;
+        margin-left: 3.5vw;
+        background-repeat: no-repeat;
+        display: block;
+        font-size: 0.001vh;
+        color: rgba(0,0,0,0);
+		background-color: #FFFFFF;
+		border-radius: 50vw;
+		
+    }
+
+	ul#navbar li a#mainL1{
+     
+		background-color: rgba(0, 223, 130, 1);
+		border-radius: 50vw;
+		
+    }
+
+	ul#navbar li h4#textoNav{
+     
+		font-weight: 200;
+		padding-top: 2vh;
+		padding-left: 1vw;
+		color: rgba(255, 255, 255, 1);
+		
+    }
+
+
+
+    li a#mainL1{
+        background-image:url("../images/home.png");
+    }
+
+    li a#mainL2{
+        background-image:url("../images/cuentas.png") ;
+    }
+
+    li a#mainL3{
+        background-image:url("../images/lecciones.png") ;
+    }
+
+    li a#mainL4{
+        background-image:url("../images/descubrir.png") ;
+    }
+
+input[type="search"] {
+  width: 77vw;
+  top: 30vw;
+  margin-top: 3vh;
+  height: 5vh;
+  padding-left: 7vw;
+  margin-bottom: 3vh;
+  border: none;
+  border-radius: 12.82vw;
+  font-size: 13pt;
+  box-sizing: border-box;
+}
+
+
+
+/*Estos son los estilos de Escena 18-Cuentas*/
+
+#wrapperEscena18{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(250, 251, 245, 1);
+    overflow: hidden;
+	padding-top: 6vh;
+	top: 0;
+	left:100vw;
+	position: absolute;
+}
+
+.nombrePagina{
+	font-weight: 400;
+	color: rgba(3, 27, 27, 1);
+	font-size: 18pt;
+	line-height: 28px;
+}
+#marcoPerfilCuentas{
+	float: right;
+	position: absolute;
+    top: 8vh;
+    left: 65vw;		
+}
+
+#mainEscena18{
+	margin-left: 11.54vw;
+	margin-right: 11.54vw;
+}
+
+.selector-opciones {
+  background-color: rgba(217, 217, 217, 0.26); /* Un color gris claro de fondo */
+  border-radius: 25vw;; /* Bordes redondeados para el contenedor */
+   /* Un pequeño espacio alrededor de los botones */
+  display: inline-block; /* Para que ocupe solo el ancho necesario */
+	padding-right: 3vw;
+	margin-top: 3vh;
+	width: 74vw;
+	height: 5.5vh;
+}
+
+.opcion {
+  background-color: transparent; /* Fondo transparente para los botones por defecto */
+  border: none; /* Sin borde */
+  padding: 5vw 10vh; /* Espacio interno para el texto */
+  border-radius: 20VW;; /* Bordes redondeados para los botones */
+  font-size: 16px; /* Tamaño de la fuente */
+  color: #777; /* Color del texto inactivo */
+	 border: none;
+    border-radius: 20vw;
+    font-size: 1.89vh;
+    color: rgba(3, 27, 27, 0.38);
+    text-align: left;
+    display: flex;
+    align-items: center;
+	margin-top: 0.5vh;
+	margin-bottom: 0.5vh;
+	padding-left: 5vw;
+	padding-right: 99vw;
+	float: right;
+}
+
+.opcion-activa {
+  background-color: #FFFFFF; /* Fondo blanco para la opción activa */
+   /* Color del texto activo */
+ 
+	padding-left: 4vw;
+	padding-right: 4vw;
+	height: 3vh;
+	margin-top: 1.2vh;
+	margin-left: 4vw;
+	color: rgba(3, 27, 27, 0.38);
+	border-radius: 20vh;
+	border: none;
+}
+
+.opcion:focus {
+  outline: none; /* Elimina el contorno al enfocar con el teclado */
+}
+
+.contenido-principal {
+  text-align: center; /* Centra el texto y el botón */
+  margin-bottom: 4.74vh; /* Espacio entre el texto y el botón */
+	margin-top: 10vh;
+}
+
+.titulo-principal {
+  font-size: 2.84vh;
+  color: #333;
+  margin-bottom: 1.78vh;
+}
+
+.descripcion-principal {
+  font-size: 5vw;;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 2.96vh;
+  
+	
+}
+
+#marcoPerfilCuentas2{
+	float: right;
+	position: absolute;
+    top: 6vh;
+    left: 65vw;		
+}
+
+#iconoNotificaciones2{
+	background-image: url("../images/fi-rr-bell.png");
+	
+}
+
+#fotoPerfilCuentas{
+	background-image:url("../images/image 13.jpg")
+}
+
+ul#navbar2{
+    height: 5vh;
+    width: 85vw;
+    background-color: rgba(171, 171, 171, 1);
+    padding-top: 1.5vh;
+	padding-bottom: 2.8vh;
+    position: absolute;
+    z-index: 9999 !important;
+    top: 87vh;
+    left: 8vw;
+	border-radius: 50vw;
+	
+}
+
+    ul#navbar2 li{
+        float: left;
+    }
+
+    ul#navbar2 li a{
+        height: 6.5vh;
+        width: 6.5vh;
+        background-position: center center;
+        background-size: 50%;
+        margin-left: 3.5vw;
+        background-repeat: no-repeat;
+        display: block;
+        font-size: 0.001vh;
+        color: rgba(0,0,0,0);
+		background-color: #FFFFFF;
+		border-radius: 50vw;
+		
+    }
+
+	ul#navbar2 li a#mainL22{
+     
+		background-color: rgba(0, 223, 130, 1);
+		border-radius: 50vw;
+		
+    }
+
+	ul#navbar2 li h4#textoNav2{
+     
+		font-weight: 200;
+		padding-top: 2vh;
+		padding-left: 1vw;
+		color: rgba(255, 255, 255, 1);
+		font-size: 1.6vh;
+		
+    }
+
+
+
+    li a#mainL12{
+        background-image:url("../images/homegris.png");
+    }
+
+    li a#mainL22{
+        background-image:url("../images/cuentasblanco.png") ;
+    }
+
+    li a#mainL32{
+        background-image:url("../images/lecciones.png") ;
+    }
+
+    li a#mainL42{
+        background-image:url("../images/descubrir.png") ;
+    }
+
+
+
+/*Estos son los estilos de Escena 19*/
+
+#wrapperEscena19{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(4, 97, 76, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena19 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw;
+ margin-top: 4.39vh;
+
+	
+ 
+}
+
+#mainEscena1919 {
+margin-top: 6vh;
+	
+}
+
+
+
+
+.imagenEscena19{
+	background-image:url("../images/becoming-rich.png");
+	background-color: rgba(0,0,0,0);
+	align-content: center;
+	display: block;
+	padding-top: 8vh;
+}
+
+
+
+#tituloEscena19{
+	padding-top: 2vh;
+	color: rgba(251,243,243,1.00);
+	font-size: 3vh;
+	line-height: 4vh;;
+}
+
+
+
+
+/*Estos son los estilos de Escena 20*/
+
+
+#wrapperEscena20{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+
+#mainEscena20 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena2020 {
+ margin-top: 17vh;	
+ 
+}
+
+
+#tituloEscena20{
+	font-size: 20pt;
+	text-align: center;
+	line-height: 4vh;
+}
+
+
+
+.botonEscena20 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top:20vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
+
+#contenidoEscena20{
+	padding-bottom: 8vh;
+}
+
+.opciones20{
+	padding-left: 12vw;
+}
+
+#texto20 {
+	font-size: 2.53vh;
+}
+
+#texto21 {
+	font-size: 2.53vh;
+}
+
+
+/*Estos son los estilos de Escena 21*/
+
+#wrapperEscena21{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#wrapperEscena22{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+
+#mainEscena21 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena25 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena23 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena2211 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena22 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena24 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena23 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena2121 {
+ margin-top: 5vh;	
+ 
+}
+
+
+#tituloEscena21{
+	font-size: 3.16vh;
+	line-height: 4vh;
+	font-weight: 500;
+}
+
+#tituloEscena25{
+	font-size: 3.16vh;
+	line-height: 4vh;
+	font-weight: 500;
+}
+
+#tituloEscena23{
+	font-size: 3.16vh;
+	line-height: 4vh;
+	font-weight: 500;
+}
+
+#tituloEscena22{
+	font-size: 3.16vh;
+	line-height: 4vh;
+	font-weight: 500;
+}
+
+#tituloEscena24{
+	font-size: 3.16vh;
+	line-height: 4vh;
+	font-weight: 500;
+}
+
+#textoEscena21{
+	padding-top:  3vh;;
+}
+
+#textoEscena25{
+	padding-top:  3vh;;
+}
+
+#textoEscena23{
+	padding-top:  3vh;;
+}
+
+#textoEscena22{
+	padding-top:  3vh;;
+}
+
+#textoEscena24{
+	padding-top:  3vh;;
+}
+
+#textoEscena212{
+	padding-top:  3vh;
+	font-style: italic;
+}
+
+.barraProgreso {
+    background-color: rgba(3, 27, 27, 1);
+    height: 5px;
+    width: 100%;
+	border-radius: 5vw;;
+}
+
+.indicadorProgreso {
+    background-color: rgba(0, 223, 130, 1); /* Color de la barra de progreso */
+    height: 100%;
+    width: 0%; /* Se actualizará con JavaScript */
+    border-radius: 0 5px 5px 0; /* Para que coincida con el inicio */
+}
+
+
+
+
+#contenidoEscena21{
+	padding-bottom: 5vh;
+}
+
+
+
+#texto21 {
+	font-size: 2.53vh;
+}
+
+#texto21 {
+	font-size: 2.53vh;
+}
+
+.input-group21 {
+    position: relative;
+}
+
+.input-group21 input[type="text"] {
+    width: 88%;
+    padding: 18px;
+	margin-bottom: 2vh;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 1em;
+    color: #333;
+    outline: none;
+}
+
+.input-group21 input[type="text"]::placeholder {
+    color: #999;
+}
+
+.seleccionarGrupo {
+    position: relative;
+}
+
+.seleccionarWrapper {
+    position: relative;
+	
+}
+
+.seleccionarWrapper select {
+    appearance: none; /* Oculta la flecha por defecto del navegador */
+    width: 100%;
+    padding: 18px ;
+	padding-bottom: 3vh;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 1em;
+    color: #333;
+    outline: none;
+    background-color: #fff;
+}
+
+.seleccionarWrapper .dropdown-arrow {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 7vw;
+    height: 7vh;
+    pointer-events: none; /* Para que los clics pasen al select */
+}
+
+.botonEscena21 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 16pt;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top:17vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
+
+/*Estos son los estilos de Escena 22*/
+
+#wrapperEscena22{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	
+}
+
+
+#mainEscena22 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+#mainEscena2222 {
+ margin-top: 5vh;	
+ 
+}
+
+
+#tituloEscena21{
+	font-size: 3.16vh;
+	line-height: 4vh;
+	font-weight: 500;
+}
+
+#textoEscena21{
+	padding-top:  3vh;;
+}
+
+.barraProgreso {
+    background-color: rgba(3, 27, 27, 1);
+    height: 5px;
+    width: 100%;
+	border-radius: 5vw;;
+}
+
+.indicadorProgreso {
+    background-color: rgba(0, 223, 130, 1); /* Color de la barra de progreso */
+    height: 100%;
+    width: 0%; /* Se actualizará con JavaScript */
+    border-radius: 0 5px 5px 0; /* Para que coincida con el inicio */
+}
+
+
+
+
+#contenidoEscena22{
+	padding-bottom: 2vh;
+}
+
+#contenidoEscena25{
+	padding-bottom: 2vh;
+}
+
+#contenidoEscena23{
+	padding-bottom: 2vh;
+}
+
+#contenidoEscena24{
+	padding-bottom: 2vh;
+}
+
+
+
+#texto21 {
+	font-size: 16pt;
+}
+
+#texto21 {
+	font-size: 16pt;
+}
+
+.opcion22 {
+    border: none;
+    border-radius: 3.85vw;
+    padding: 15px;
+    font-size: 1.89vh;
+    color: rgba(3, 27, 27, 1);
+    background-color: rgba(255, 255, 255, 1);
+    text-align: left;
+    display: flex;
+    align-items: center;
+	margin-top: 2vh;
+	padding-left: 5vw;
+	width: 78vw;
+}
+
+input[type="checkbox22"] {
+width: 4vw;
+height: 1.8vh;;
+margin-bottom: 2vh;
+border-radius: 100%;
+border: none;
+background-color: rgba(217, 217, 217, 1);
+margin-right: 5vw;
+margin-top: 0vh;
+accent-color: #2ecc71;
+
+	
+}
+
+
+
+
+
+.botonEscena22 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top:5vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
+
+/*Estos son los estilos de Escena 23*/
+#wrapperEscena23{
+	height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+}
+
+
+#wrapperEscena25{
+	height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+}
+
+#wrapperEscena24{
+	height: 100vh;
+    width: 100vw;
+    background-color: rgba(246, 248, 237, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+}
+.contenedorSalario {
+    background-color: #fff;
+    border-radius: 5vw;
+    padding: 1.5vh 4vw;;
+    display: flex;
+    align-items: center;
+	margin-bottom: 3vh;
+    
+}
+
+.iconoSalario {
+	background-image:url("../images/escena23.png");
+    background-color: rgba(44, 194, 149, 1); /* Color verde del círculo */
+    width: 15vw;
+    height: 5vh;
+    border-radius: 50vh;
+    background-size: 65%;
+    margin-right: 0vw;;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#iconoSalario242{
+	background-image:url("../images/agua.png");
+    background-color: rgba(243, 208, 10, 1)); /* Color verde del círculo */
+    width: 12vw;
+    height: 5.4vh;
+    border-radius: 50vh;
+    background-size: 40%;
+    margin-right: 0	vw;;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#iconoSalario241{
+	background-image:url("../images/arriendo.png");
+    background-color: rgba(250, 76, 3, 1); /* Color verde del círculo */
+    width: 20vw;
+    height: 5vh;
+    border-radius: 50vh;
+    background-size: 55%;
+    margin-right: 0	vw;;
+	padding-left: 2vw;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+.currency-input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3vw;;
+    padding: 8px 15px;
+    font-size: 1.89vh;
+    color: #777;
+    width: 55px; /* Ajusta el ancho según necesites */
+    text-align: center;
+	margin-left: 18vw;
+}
+
+
+
+
+#mainEscena2323 {
+ margin-top: 5vh;	
+ 
+}
+
+#mainEscena2525 {
+ margin-top: 5vh;	
+ 
+}
+
+#mainEscena2424 {
+ margin-top: 5vh;	
+ 
+}
+
+#mainEscena2323 {
+ margin-top: 5vh;	
+ 
+}
+
+#linea23{
+	padding-top: 3vh;
+}
+
+#linea25{
+	padding-top: 3vh;
+}
+
+#linea24{
+	padding-top: 3vh;
+}
+
+.contenedorAnadir {
+    background-color: none;
+    border-radius: 5vw;
+    padding: 1.5vh 4vw;;
+	margin-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+h4#anadir23{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+h4#anadir25{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+h4#anadir24{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+h4#ingresosEscena23{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+h4#ingresosEscena25{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+h4#ingresosEscena24{
+	font-weight: 500;
+	font-size: 2.21vh;
+	margin-left: 3vw;
+	margin-right: 0;
+}
+
+h4#ingresosEscena242{
+	font-weight: 500;
+	font-size: 2.21vh;
+	margin-left: 3vw;
+	margin-right: 5vw;
+}
+
+h4#ingresosEscena243{
+	font-weight: 500;
+	font-size: 2.21vh;
+	margin-left: 3vw;
+	margin-right: 7vw;
+}
+
+#ingresosEscena23{
+margin-left: 30vw;
+}
+
+.iconoMas {
+	background-image:url("../images/masEscena23.png");
+    background-color:rgba(222, 233, 97, 1); /* Color verde del círculo */
+    width: 12vw;
+    height: 5.4vh;
+    border-radius: 50vh;
+    background-size: 65%;
+    margin-right: 15px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#imagenFondo23{
+	background-image: url("../images/fondoeEscena23.png");
+	width: 110vw;
+    height: 60vw;
+	background-repeat: no-repeat;
+    background-size: 100%;
+	margin-left: -15vw;
+	margin-top: 2vh;
+	
+}
+
+.botonEscena23 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top:0vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
+
+/*Estos son los estilos de Escena 25*/
+
+
+
+.contenedorSalario {
+    background-color: #fff;
+    border-radius: 5vw;
+    padding: 1.5vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+.currency-input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3vw;;
+    padding: 8px 15px;
+    font-size: 1.89vh;
+    color: #777;
+    width: 55px; /* Ajusta el ancho según necesites */
+    text-align: center;
+	margin-left: 18vw;
+}
+
+
+
+
+#mainEscena2323 {
+ margin-top: 5vh;	
+ 
+}
+
+#mainEscena2323 {
+ margin-top: 5vh;	
+ 
+}
+
+#linea23{
+	padding-top: 3vh;
+}
+
+.contenedorAnadir {
+    background-color: none;
+    border-radius: 5vw;
+    padding: 1.5vh 4vw;;
+	margin-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+h4#anadir23{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+h4#ingresosEscena23{
+	font-weight: 500;
+	font-size: 2.21vh;
+}
+
+#ingresosEscena23{
+margin-left: 2vw;
+}
+
+.iconoMas {
+	background-image:url("../images/masEscena23.png");
+    background-color:rgba(222, 233, 97, 1); /* Color verde del círculo */
+    width: 12vw;
+    height: 5.4vh;
+    border-radius: 50vh;
+    background-size: 65%;
+    margin-right: 3.85vw;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#imagenFondo23{
+	background-image: url("../images/fondoeEscena23.png");
+	width: 110vw;
+    height: 60vw;
+	background-repeat: no-repeat;
+    background-size: 100%;
+	margin-left: -15vw;
+	margin-top: 2vh;
+	
+}
+
+.botonEscena23 button {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 26vw;
+  margin-top:0vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
+
+
+
+
+
+/*Estos son los estilos de Escena 27*/
+
+#wrapperEscena27{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 223, 130, 1);
+    overflow: hidden;
+	top: 0;
+	left: 100vw;
+	position: absolute;
+	
+}
+
+#mainEscena27 {
+ margin-left: 11.54vw;
+ margin-right: 11.54vw; 	
+ 
+}
+
+.headerEscena27{
+	background-color: rgba(0,0,0,0);
+    width: 78vw;
+    height: 10vw;
+	margin-top: 4.59vh;	
+	
+}
+
+.headerEscena27{
+	align-items: flex-end;
+}
+
+#mainEscena2727{
+	margin-top: 35vh;
+}
+
+
+#imagenEscena27{
+	background-image:url("../images/escena27.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 10vh;
+}
+
+#textoEscena27{
+	padding-top: 2.5vh;;
+}
+
+#tituloEscena27{
+	font-size: 24pt;
+	line-height: 10vw;
+}
+
+
+.tituloDescubrir {
+	float: left;
+	font-weight: 500;
+	margin-bottom: 1.5vh;
+	margin-top: 2vh;
+	font-size: 5.5vw;
+}
+
+.scrollDescubrir {
+	clear: both;
+	margin-bottom: 5vh;
+	
+}
+
+.temasDescubrir {
+	float: left;
+	padding-right: 2vw;
+	font-weight: 200;
+	background-color: rgba(217, 217, 217, 0.26);
+	border-radius: 20vh;
+	background-position: center;
+	padding-left: 2vw;
+	padding-bottom: 0.5vh;
+	padding-top: 0.1vh;
+	margin-right: 2.5vw;
+	color: rgba(3, 27, 27, 0.38);
+	font-size: 3.8vw;
+	height: 2vh;
+	align-content: space-between;
+	
+	
+}
+
+.tituloTuActividad {
+	font-weight: 500;
+	margin-bottom: 1.5vh;
+	
+	
+}
+
+.tuActividad {
+	margin-bottom: 6vh;
+}
+
+.temasActividad {
+	float: left;
+	padding-right: 4.1vw;
+	font-weight: 400;
+	color: rgba(3, 27, 27, 0.27);
+}
+
+
+#sostenibilidad {
+	background-color: rgba(44, 194, 149, 1);
+	color: #FFFFFF;
+}
+
+
+
+.decoracion {
+	text-decoration: underline;
+	text-decoration-color: rgba(44, 194, 149, 1);
+}
+
+#misCursos {
+	color: rgba(3, 27, 27, 1);
+}
+
+
+
+
+#newsImage{
+	width: 90vw;
+    height: 50vw;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagen1{
+	background-image:url("../images/homeimg.png");
+	background-color: rgba(0,0,0,0);
+    padding-top: 0vh;
+}
+
+
+
+#mainEscenaFondo {
+	background-color: rgba(234, 234, 231, 0.52);
+	border-top-left-radius: 15vw;
+	border-top-right-radius: 15vw;
+	width: 100vw;
+	margin-left: -11.54vw;
+	height: 100vh;
+	margin-top: 5vh;
+}
+
+#mainEscenaFondo2 {
+	clear: both;
+	margin-left: 11.54vw;
+	margin-right: 11.54vw;
+}
+
+.botonEscena18 {
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(4, 97, 76, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 60vw;
+  align-items: center;
+  padding-left: 22vw;
+  margin-top:10vh;
+  color: #FFFFFF;
+  margin-left: 10vw;
+}
+
+
+
+
+
+#iconoSalario243 {
+	background-image:url("../images/luz.png");
+    background-color: rgba(243, 208, 10, 1); /* Color verde del círculo */
+    width: 12vw;
+    height: 5.4vh;
+    border-radius: 50vh;
+    background-size: 55%;
+    margin-right: 0	vw;;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#botonEscena24 {
+	margin-top: 4vh;
+}
+
+#botonEscena25 button {
+	padding-left: 0;
+}
+
+#botonEscena25 button{
+  border: none;
+  border-radius: 50vw;
+  background-color: rgba(0, 223, 130, 1);
+  font-weight: 500;
+  font-size: 2.53vh;
+  display: flex;
+  top: 30vw;
+  height: 7.53vh;
+  width: 78vw;
+  align-items: center;
+  padding-left: 15vw;
+  margin-top:22vh;
+  color: rgba(3, 27, 27, 1);
+  
+}
